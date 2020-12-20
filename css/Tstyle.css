@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.header{
+	position: relative;
+  left: 0;
+  top: auto;
+  width: 100%;
+  background-color: white;
+}
+	.st0{fill:#F94151;}
+
+	.st2{font-family: 'Montserrat Black'}
+
+	.st3{position: absolute;top: 45%;left: 10%;font-size:3.5vw;}
+
+	.st4{font-size:2.5vw;position:absolute;top: 60%;left: 10%;}
+
+	.st5{font-family: 'Montserrat ExtraBold', 'Montserrat Medium'}
+
+.logo_header{
+	 width: 170px;
+	position: fixed; 
+	right: 0%; 
+	top: 1%;
+}
+
+.logo_img{
+	max-height: auto;
+	max-width: 100%;
+	position: relative;
+	top: 1%;
+	right: 1%;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 100; 
+  background-color: white;
+  color: #333333;
+  text-align: right;
+}
