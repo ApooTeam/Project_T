@@ -5,17 +5,31 @@
   left: 0;
   top: auto;
   width: 100%;
+	height: 95;
   background-color: white;
 }
 	.st0{fill:#F94151;}
 
 	.st2{font-family: 'Montserrat Black'}
 
-	.st3{position: absolute;top: 45%;left: 10%;font-size:3.5vw;}
+	.st3{position: absolute;top: 7%;left: 5%;font-size:3.5vw;}
 
-	.st4{font-size:2.5vw;position:absolute;top: 60%;left: 10%;}
+	.st4{font-size:2.5vw;position:absolute;top: 37%;left: 5%;}
 
 	.st5{font-family: 'Montserrat ExtraBold', 'Montserrat Medium'}
+
+@media only screen and (max-width: 768px) {
+ .st4{
+    top: 35%;
+	 left: 10%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+.st3{
+    top: 20%;left: 10%;
+  }
+}
 
 .logo_header{
 	 width: 170px;
@@ -32,6 +46,7 @@
 	right: 1%;
 }
 
+
 .footer{
   position: fixed;
   bottom: 0px;
@@ -40,4 +55,10 @@
   background-color: white;
   color: #333333;
   text-align: right;
+}
+.footer_year{
+	position: absolute;
+	bottom: 5px;right: 20px;
+	font-family:'Montserrat Medium';
+	font-size:30px
 }
